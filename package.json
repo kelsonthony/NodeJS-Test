@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "NodeJS Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelsonthony/NodeJS-Test.git"
+  },
+  "author": "@kelsonthony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelsonthony/NodeJS-Test/issues"
+  },
+  "homepage": "https://github.com/kelsonthony/NodeJS-Test#readme",
+
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "nodemon": "2.0.7",
+    "nyc": "15.1.0"
+  },
+  "dependencies": {
+    "boom": "^7.3.0",
+    "hapi": "^18.1.0",
+    "hapi-swagger": "^9.4.2",
+    "inert": "5.1.3",
+    "joi": "14.1.0",
+    "mongoose": "5.11.15",
+    "pg": "8.5.1",
+    "pg-hstore": "2.3.3",
+    "sequelize": "6.5.0",
+    "vision": "5.4.4"
+  }
+}
