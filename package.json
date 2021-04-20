@@ -4,7 +4,7 @@
   "description": "NodeJS Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testlse": "mocha src/tests/*.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,6 @@
     "url": "https://github.com/kelsonthony/NodeJS-Test/issues"
   },
   "homepage": "https://github.com/kelsonthony/NodeJS-Test#readme",
-
   "devDependencies": {
     "mocha": "5.2.0",
     "nodemon": "2.0.7",

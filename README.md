@@ -92,3 +92,9 @@ mongodb://herouser:passwordwordheroes@192.168.1.19:27017/heroesdb
 "nyctest": "nyc --reporter=html mocha --timeout 10000 src/tests/*.js",
 "watch": "mocha src/tests/*.js -w",
 "prod": "nodemon src/api.js"
+
+
+Agenda:
+API Schema 
+Mocha Tests
+Swagger Documentation  
